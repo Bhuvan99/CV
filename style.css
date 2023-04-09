@@ -1,0 +1,141 @@
+body{
+    color: #40514e;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62em;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+}
+
+.sp{
+    text-decoration: underline;
+}
+
+hr{
+  border: dotted gray 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+   }
+  
+
+.top-margin{
+    background-color: #B9F3FC;
+    position: relative;
+    padding-top: 100px;
+}
+
+.intro{
+    width: 30%;
+    margin:auto;
+}
+.medium-margin{
+    margin: 100px 0;
+}
+
+.skill-row{
+    margin: auto 100px;         /* To reduce the margin of the image.. as we can see using the pesticide box*/
+    width: 50%;
+    text-align: left;
+    /*line-height: 2;         Space between two lines or two div properties*/
+}
+
+.code-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+/*tech-desc{           CLEAR property
+    clear: left;    /* This clear property is used to prevent wrapping when there is no image while the description is long.
+}                   If the para/description is exceeds the image wrapping, it automatically aligned to the normal text/property that we have given.*/
+
+.puz-img{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+/*puz-desc{
+    clear: right;
+}*/
+
+.bottom-margin{
+    background-color: #11999E;
+    margin-top: 100px;
+    /*position: relative;*/
+    padding: 50px 0 20px;   
+}
+
+.top-cloud{
+    position:absolute;
+    right: 500px;
+    top: 50px;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.contact-fun{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* By using the css3buttongenerator.com.. the following code is generated and updated.*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
